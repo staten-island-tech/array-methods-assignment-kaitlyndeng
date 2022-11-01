@@ -1,12 +1,28 @@
 const cats = [
-  {name: "Angela", type: "siamese", size: "small", age: 3},
-
+  { name: "Angela", type: "siamese", adj: ["small", "loud", "mean"], age: 3 },
+  { name: "Fluffy", type: "ragdoll", adj: ["tiny", "fluffy", "cute"], age: 9 },
+  {
+    name: "Bentley",
+    type: "munchkin",
+    adj: ["big", "sleepy", "quiet"],
+    age: 12,
   },
-  "ragdoll",
-  "munchkin",
+  {
+    name: "Fred",
+    type: "russian-blue",
+    adj: ["small", "calm", "friendly"],
+    age: 7,
+  },
 ];
-
-console.log(cats[0]);
-cats.forEach((cats) => {
-
+cats.forEach((cat) => {
+  console.log(cat.name);
+});
+cats.forEach((cat) => {
+  console.log(cat.type);
+});
+cats.forEach((cat) => {
+  console.log(cat.adj);
+});
+cats.forEach((cat) => {
+  console.log(cat.age);
 });

@@ -14,15 +14,10 @@ const cats = [
     age: 7,
   },
 ];
+
 cats.forEach((cat) => {
   console.log(cat.name);
 });
-cats.forEach((cat) => {
-  console.log(cat.type);
-});
-cats.forEach((cat) => {
-  console.log(cat.adj);
-});
-cats.forEach((cat) => {
-  console.log(cat.age);
+cats.forEach((adj) => {
+  console.log([0][2]);
 });

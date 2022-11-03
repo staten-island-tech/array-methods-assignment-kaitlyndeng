@@ -14,10 +14,17 @@ const cats = [
     age: 7,
   },
 ];
-
+ 
 cats.forEach((cat) => {
   console.log(cat.name);
 });
-cats.forEach((adj) => {
-  console.log([0][2]);
+
+cats.forEach((cats) => {
+  cats.adj.forEach((adjs) => {
+    console.log(adjs);
+  });
 });
+
+const ages = cats.filter((cats) => cats.age <= 9);
+  console.log(ages);
+
